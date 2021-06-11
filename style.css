@@ -31,7 +31,27 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 400px;
+  height: 300px;
+}
+
+#about img {
+  height: 300px;
+  width: 400px;
+}
+
+#about p {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+#menu .group{
+  justify-content: space-between;
+}
+#menu .item {
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 
 /* ---  Groups & Items --- */
@@ -39,6 +59,7 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .item {
@@ -117,3 +138,14 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 600px) {
+
+  .group {
+    flex-direction: row;
+  }
+  main img {
+    width: 800px;
+    height: 500px;
+  }
+}
