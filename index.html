@@ -21,28 +21,29 @@
     <header>
       <div class="group">
         <div class="logo item">Thinkfulbnb</div>
-        <nav>
-          <ul id="menu">
-            <div class="item">
-              <li><a id="stay" href="#stay">Stay</a></li>
-              <li><a id="about" href="#about">About</a></li>
-              <li><a id="ideas" href="#ideas">Ideas</a></li>
-              <li><a id="host" href="#host">Host</a></li>
-            </div>
-          </ul>
-        </nav>
+          <nav>
+            <ul id="menu">
+              <div class="item reverse_direction">
+                <li><a id="stay" href="#stay">Stay</a></li>
+                <li><a id="about" href="#about">About</a></li>
+                <li><a id="ideas" href="#ideas">Ideas</a></li>
+                <li><a id="host" href="#host">Host</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
       </div>  
     </header>
 
     <main>
       <!-- Stay -->
       <section id="stay">
-        <h2>Find the perfect vacation rental</h2>
+        <h2 class="bold_text">Find the perfect vacation rental</h2>
         <!-- Create a form here -->
         <form>
           <div class="group">
             <div class="item">
-              <label for="location">Location:</label>
+              <label for="location">Location</label>
               <input
               id="location"
               type="text"
@@ -51,7 +52,7 @@
               />
             </div>
             <div class="item">
-              <label for="arrive">Arrive Date:</label>
+              <label for="arrive">Arrive</label>
               <input
               id="arrive"
               type="date"
@@ -60,7 +61,7 @@
               />
             </div>
             <div class="item">
-              <label for="depart">Depart Date:</label>
+              <label for="depart">Depart</label>
               <input
               id="depart"
               type="date"
@@ -68,10 +69,8 @@
               name="depart"
               />
             </div>
-            <div class="item">
-              <h3>Choose a Type: </h3>
-            </div>
-            <div class="item">
+            <div class="item-double">
+              <h3 class="bold_text">Type</h3>
               <select name="type" size="1">
                 <option value="apartment">Apartment</option>
                 <option value="barn">Barn</option>

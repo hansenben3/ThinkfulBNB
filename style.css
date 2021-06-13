@@ -16,6 +16,10 @@ h3 {
   font-weight: 500;
 }
 
+.bold_text{
+  font-weight: bold;
+}
+
 p {
   line-height: 1.5em;
   margin: 0;
@@ -54,12 +58,15 @@ main img {
   justify-content:space-evenly;
 }
 
+#stay .item {
+  justify-content: space-around;
+}
+
 /* ---  Groups & Items --- */
 
 .group {
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .item {
@@ -69,6 +76,10 @@ main img {
 
 .item-double {
   flex: 2;
+}
+
+.reverse_direction{
+  flex-direction: row;
 }
 
 /* -------  Navigation ------- */
@@ -137,6 +148,7 @@ footer p {
   padding: 20px;
 }
 
+
 /* -------  Media Query ------- */
 
 @media all and (min-width: 600px) {
@@ -147,5 +159,9 @@ footer p {
   main img {
     width: 800px;
     height: 500px;
+  }
+
+  .reverse_direction{
+    flex-direction: column;
   }
 }
