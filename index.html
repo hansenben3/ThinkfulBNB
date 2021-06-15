@@ -20,19 +20,19 @@
   <body>
     <header>
       <div class="group">
-        <div class="logo item">Thinkfulbnb</div>
-          <nav>
-            <ul id="menu">
-              <div class="item reverse_direction">
-                <li><a id="stay" href="#stay">Stay</a></li>
-                <li><a id="about" href="#about">About</a></li>
-                <li><a id="ideas" href="#ideas">Ideas</a></li>
-                <li><a id="host" href="#host">Host</a></li>
-              </div>
-            </ul>
-          </nav>
-        </div>
-      </div>  
+        <div class="logo">Thinkfulbnb</div>
+          <div class="item">
+            <nav>
+              <ul id="menu">
+                  <li><a id="stay" href="#stay">Stay</a></li>
+                  <li><a id="about" href="#about">About</a></li>
+                  <li><a id="ideas" href="#ideas">Ideas</a></li>
+                  <li><a id="host" href="#host">Host</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>  
+      </div>
     </header>
 
     <main>
@@ -43,7 +43,9 @@
         <form>
           <div class="group">
             <div class="item">
-              <label for="location">Location</label>
+              <div class="item-double">
+                <label for="location">Location</label> 
+              </div>
               <input
               id="location"
               type="text"
@@ -52,7 +54,9 @@
               />
             </div>
             <div class="item">
+              <div class="item-double">
               <label for="arrive">Arrive</label>
+              </div>
               <input
               id="arrive"
               type="date"
@@ -61,7 +65,9 @@
               />
             </div>
             <div class="item">
+              <div class="item-double">
               <label for="depart">Depart</label>
+              </div>
               <input
               id="depart"
               type="date"
@@ -69,9 +75,12 @@
               name="depart"
               />
             </div>
+            <div class="item">
             <div class="item-double">
-              <h3 class="bold_text">Type</h3>
-              <select name="type" size="1">
+              <div class="item-double">
+                <label for="type">Type</label>
+              </div>
+              <select id = "type" name="type" size="1">
                 <option value="apartment">Apartment</option>
                 <option value="barn">Barn</option>
                 <option value="castle">Castle</option>
@@ -81,6 +90,7 @@
                 <option value="yurt">Yurt</option>
               </select>
             </div>
+          </div>
             <div class="item">
               <button type="submit">Search</button>
             </div>
@@ -168,7 +178,7 @@
               </li>
             </ul>
           </div>
-          <div class="item">
+          <div>
             <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
           </div>
         </div>
