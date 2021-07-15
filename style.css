@@ -1,5 +1,9 @@
 /* -------  General Styles ------- */
 
+header nav ul li{
+  display: inline;
+}
+
 header nav .item{
   justify-content: center;
 }
@@ -190,6 +194,10 @@ footer p {
   }
   .group2 {
     flex-direction: row;
+  }
+
+  section .stay .item{
+    justify-content: space-between;
   }
 }
 
