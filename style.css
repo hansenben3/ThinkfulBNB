@@ -86,6 +86,7 @@ main img {
 
 .item-double {
   flex: 2;
+  justify-content: space-around;
 }
 
 .reverse_direction{
@@ -101,7 +102,7 @@ header div .item{
 header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
-  text-align: right;
+  text-align: center;
 }
 
 .logo {
@@ -174,7 +175,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
 
   .group {
     flex-direction: row;
