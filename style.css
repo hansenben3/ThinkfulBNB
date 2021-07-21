@@ -177,6 +177,10 @@ footer p {
 
 @media all and (min-width: 480px) {
 
+  header{
+    text-align: right;
+  }
+
   .group {
     flex-direction: row;
   }
