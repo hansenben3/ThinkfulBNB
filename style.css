@@ -86,6 +86,7 @@ main img {
 
 .item-double {
   display: flex;
+  flex-direction: row;
   flex: 2;
   justify-content: space-around;
 }
@@ -204,6 +205,10 @@ footer p {
 
   section .stay .item{
     justify-content: space-between;
+  }
+
+  .item-double {
+    flex-direction: column;
   }
 }
 
