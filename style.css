@@ -42,14 +42,14 @@ section.alternate-background {
   color: #fff;
 }
 
-main img {
-  width: 400px;
-  height: 300px;
+img {
+  height: 100%;
+  width: 100%;
 }
 
 #about img {
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 #about p {
@@ -71,6 +71,7 @@ main img {
   justify-content: space-around;
 }
 
+
 /* ---  Groups & Items --- */
 
 .group {
@@ -79,6 +80,8 @@ main img {
 }
 
 .item {
+  flex-direction: column;
+  display: flex;
   flex: 1;
   margin: 10px;
 }
@@ -186,10 +189,6 @@ footer p {
   .group {
     flex-direction: row;
   }
-  main img {
-    width: 800px;
-    height: 500px;
-  }
 
   .reverse_direction{
     flex-direction: column;
@@ -215,4 +214,3 @@ footer p {
 #host div .item {
   margin-top: 100px;
 }
-
