@@ -217,7 +217,9 @@ footer p {
 
 @media all and (min-width: 480px) {
 
-
+header .item {
+  justify-content: center;
+}
 
 }
 
