@@ -4,6 +4,10 @@ header nav ul li{
   display: inline;
 }
 
+header nav {
+  margin-left: 50px;
+}
+
 header nav .item{
   justify-content: center;
 }
@@ -179,8 +183,7 @@ footer p {
 
 
 /* -------  Media Query ------- */
-
-@media all and (min-width: 480px) {
+@media all and (min-width: 970px){
 
   header{
     text-align: right;
@@ -198,6 +201,7 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
   }
+
   .group2 {
     flex-direction: row;
   }
@@ -211,6 +215,13 @@ footer p {
   }
 }
 
+@media all and (min-width: 480px) {
+
+
+
+}
+
 #host div .item {
   margin-top: 100px;
+
 }
