@@ -76,6 +76,7 @@ section.alternate-background {
 
 #stay .item {
   justify-content: space-between;
+  padding: 0px;
 }
 
 
@@ -92,11 +93,6 @@ section.alternate-background {
   flex: 1;
   padding: 20px;
 }
-
-form .item {
-  padding: 0px;
-}
-
 
 .item-double {
   display: flex;
